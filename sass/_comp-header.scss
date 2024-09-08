@@ -1,0 +1,39 @@
+.comp-header {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  display: table;
+
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 30px;
+    width: 20%;
+    padding: 10px;
+  }
+
+  div{
+    display: table-cell;
+    width: 55%;
+  }
+
+  nav {
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    width: 25%;
+
+    ul {
+      display: table;
+      width: 100%;
+      padding: 5px;
+
+      li {
+        display: table-cell;
+        border-collapse: separate;
+        border-spacing: 5px;
+      }
+    }
+  }
+}

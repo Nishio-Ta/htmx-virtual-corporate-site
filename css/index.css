@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+:target {
+  scroll-margin-block: 5ex;
+}
+
+.des-container {
+  width: 100%;
+  background-color: azure;
+  min-height: calc(100vh - 120px);
+}
+
+.comp-header {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  display: table;
+}
+.comp-header h1 {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 30px;
+  width: 20%;
+  padding: 10px;
+}
+.comp-header div {
+  display: table-cell;
+  width: 55%;
+}
+.comp-header nav {
+  display: table-cell;
+  vertical-align: middle;
+  color: #ffffff;
+  width: 25%;
+}
+.comp-header nav ul {
+  display: table;
+  width: 100%;
+  padding: 5px;
+}
+.comp-header nav ul li {
+  display: table-cell;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.comp-jumbotron {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../image/interior.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.comp-concept-card {
+  padding: 50px;
+  width: 700px;
+  height: 580px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 121px;
+  left: calc(30% - 410px);
+}
+.comp-concept-card h2 {
+  line-height: 50px;
+  padding: 10px;
+}
+.comp-concept-card p {
+  line-height: 30px;
+}
+
+.comp-footer {
+  width: 100%;
+  background-color: black;
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+}/*# sourceMappingURL=index.css.map */

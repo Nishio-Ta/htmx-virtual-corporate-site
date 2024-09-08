@@ -1,0 +1,18 @@
+.comp-concept-card {
+  padding: 50px;
+  width: 700px;
+  height: 580px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 121px;
+  left: calc(30% - 410px);
+
+  h2 {
+    line-height: 50px;
+    padding: 10px;
+  }
+
+  p {
+    line-height: 30px;
+  }
+}

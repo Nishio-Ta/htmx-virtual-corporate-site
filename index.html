@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/htmx.org@1.9.12" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <title>株式会社NiShIo</title>
+</head>
+<body>
+  <header class="comp-header">
+    <h1 
+    hx-get="./top.html"
+    hx-trigger="click"
+    hx-swap="outerHTML"
+    hx-target="#content"
+    >株式会社NiShIo</h1>
+    <div></div>
+    <nav>
+      <ul class="">
+        <li 
+          hx-get="./company_overview.html"
+          hx-trigger="click"
+          hx-swap="outerHTML"
+          hx-target="#content"
+          >会社概要</li>
+        <li
+          hx-get="./service.html"
+          hx-trigger="click"
+          hx-swap="outerHTML"
+          hx-target="#content"
+        
+        >サービス</li>
+        <li>お問い合わせ</li>
+        <li>ニュース</li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="des-container">
+    <div id="content" class="comp-jumbotron">
+      <div class="comp-concept-card">
+        <h2>空間をよりクリエイティブに<br>
+        クリエイティブな空間は人類に発展性を</h2>
+        <p>空間。それは世界と言っても過言ではないでしょう。
+          その切り分けられた世界に人は存在し、何らかの活動を行う。空間があって、そこに人や、暮らしが乗っかっている。
+          居酒屋で仕事をする人はいません。オフィスで油絵をする人もいません。リビングでエレキギターをひきません。
+          オフィスで仕事をし、アトリエで油絵を描き、スタジオで音色を奏でます。
+          すなわち空間次第でそこで人々が何をするかが変わってくるのです。
+          また、空間は目的に適しているだけでなく、より洗練されている必要があります。
+          オフィスであれば、より仕事が捗るように、
+          アトリエであれば、より芸術的なインスパイヤが起こるように、
+          スタジオであれば、より美しい音色を生み出せるように。
+          私達は、人に、より生産性の高い空間を提供することで人類の活動を促進したいと考えています。
+          そんな間接的なサポートが私達の暮らしをより豊かにすると信じています。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="comp-footer">
+    Copyright © NiShIo inc.
+  </footer>
+</body>
+</html>
